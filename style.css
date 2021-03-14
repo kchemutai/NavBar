@@ -55,7 +55,7 @@ border-bottom: 1px solid #E2E8F0;;
 .nav-logo {
     font-size: 2.1rem;
     font-weight: 500;
-    color: #482ff7;
+    color: #fff;
 }
 @media only screen and (max-width: 768px) {
   .nav-menu{
@@ -102,4 +102,12 @@ border-bottom: 1px solid #E2E8F0;;
   display: flex;
   flex-direction: column;
   margin-left: 10px
+}
+.landing-page{
+  width: 100%;
+  height: 100vh;
+  background-image: url('./img/bg_1.jpg');
+  z-index: -1;
+  background-size: cover;
+  object-fit: contain;
 }
